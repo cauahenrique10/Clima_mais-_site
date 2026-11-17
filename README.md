@@ -63,7 +63,6 @@ clima+/
 ├── js/
 │   └── main.js                   # Lógica da calculadora, formulário, menu e FAQ
 ├── index.html                    # Página principal do site
-├── netlify.toml                  # Configuração para publicação no Netlify
 ├── .gitignore                    # Arquivos ignorados pelo Git
 └── README.md                     # Documentação do projeto
 ```
@@ -89,19 +88,16 @@ Abra no seu navegador: `http://localhost:8080`
 
 ---
 
-## 🌐 Publicação / Deploy (Netlify)
+## 🌐 Publicação Online Grátis (GitHub Pages)
 
-O projeto já possui o arquivo `netlify.toml` pronto para deploy contínuo:
+Como o código já está no GitHub, você pode ativar o site gratuitamente direto pelo próprio GitHub:
 
-1. **Deploy pelo Git (GitHub / GitLab)**:
-   - Conecte o repositório no Netlify.
-   - **Diretório base**: *(Deixe em branco)*
-   - **Comando de construção**: *(Deixe em branco)*
-   - **Publicar diretório**: `.` *(ponto)*
-   - Clique em **Deploy Site**.
-
-2. **Deploy Manual (Netlify Drop)**:
-   - Acesse [app.netlify.com/drop](https://app.netlify.com/drop) e arraste a pasta do projeto.
+1. No seu repositório no GitHub, clique na aba **Settings** (Configurações).
+2. No menu lateral esquerdo, clique em **Pages**.
+3. Em **Branch**, selecione a branch `main` e a pasta `/ (root)`.
+4. Clique em **Save** (Salvar).
+5. Pronto! Em cerca de 1 minuto seu site estará no ar no endereço oficial:
+   `https://cauahenrique10.github.io/Clima_mais-_site/`
 
 ---
 
