@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="favCircleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#006ef5" />
+      <stop offset="50%" stop-color="#0056d6" />
+      <stop offset="100%" stop-color="#072146" />
+    </linearGradient>
+    <linearGradient id="favWaveGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="70%" stop-color="#0056d6" />
+      <stop offset="100%" stop-color="#041b3a" />
+    </linearGradient>
+    <linearGradient id="favWaveSub" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00a8e8" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Circle -->
+  <circle cx="60" cy="60" r="54" fill="url(#favCircleGrad)" stroke="#38bdf8" stroke-width="3" />
+  
+  <!-- Snowflake -->
+  <g stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="60" y1="24" x2="60" y2="74" />
+    <line x1="35" y1="39" x2="85" y2="65" />
+    <line x1="35" y1="63" x2="85" y2="37" />
+    
+    <!-- Top -->
+    <line x1="60" y1="30" x2="53" y2="37" />
+    <line x1="60" y1="30" x2="67" y2="37" />
+    <!-- Top Right -->
+    <line x1="79" y1="41" x2="74" y2="34" />
+    <line x1="79" y1="41" x2="83" y2="48" />
+    <!-- Bottom Right -->
+    <line x1="79" y1="62" x2="83" y2="55" />
+    <line x1="79" y1="62" x2="73" y2="67" />
+    <!-- Bottom -->
+    <line x1="60" y1="67" x2="67" y2="60" />
+    <line x1="60" y1="67" x2="53" y2="60" />
+    <!-- Bottom Left -->
+    <line x1="41" y1="60" x2="46" y2="66" />
+    <line x1="41" y1="60" x2="37" y2="52" />
+    <!-- Top Left -->
+    <line x1="41" y1="42" x2="37" y2="49" />
+    <line x1="41" y1="42" x2="47" y2="35" />
+  </g>
+  <circle cx="60" cy="49" r="4" fill="#38bdf8" />
+
+  <!-- Swoosh Waves -->
+  <path d="M 12 76 Q 38 114 82 100 Q 112 90 115 65 Q 101 96 64 90 Q 30 85 12 76 Z" fill="url(#favWaveGrad)" />
+  <path d="M 24 86 Q 54 112 93 96 Q 115 88 119 74 Q 107 102 71 100 Q 42 98 24 86 Z" fill="url(#favWaveSub)" opacity="0.85" />
+</svg>
